@@ -1081,6 +1081,12 @@ ul.share li:hover .fab {
   flex-direction: row;
 }
 
+.avatar-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
 /* --- Dark mode --- */
 
 :root[data-theme="dark"] {
