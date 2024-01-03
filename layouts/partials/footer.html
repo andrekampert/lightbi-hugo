@@ -41,12 +41,14 @@
           {{ if .Site.Author.name }}
           {{ if .Site.Author.website }}
           <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
+          &nbsp;&bull;&nbsp;
           {{ else }}
           {{ .Site.Author.name }}
+          &nbsp;&bull;&nbsp;
           {{ end }}
           {{ end }}
 
-          &nbsp;&bull;&nbsp;&copy;
+          &copy;
           {{ if .Site.Params.since }}
           {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
           {{ else }}
