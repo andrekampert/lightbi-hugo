@@ -409,11 +409,6 @@ footer .theme-by {
   color: #008AFF;
 }
 
-.post-preview .post-title {
-  /* font-size: 30px; */
-  margin-top: 0;
-}
-
 .post-title {
   color: #344854
 }
@@ -421,7 +416,6 @@ footer .theme-by {
 .post-title:focus,
 .post-title:hover {
   text-decoration: none;
-  color: #008AFF
 }
 
 .post-preview .post-subtitle {
@@ -974,12 +968,13 @@ ul.share li:hover .fab {
   transition-delay: 0s;
 }
 
-/* Transform commented to avoid jumping transition when hovering cards */
-
 .single-post-card:hover {
   box-shadow: 0 40px 40px rgba(0, 0, 0, .16);
   transition-delay: 0s !important;
-  /* transform: translate(0,-20px); */
+  
+  .post-title {
+    color: #008AFF;
+  }
 }
 
 .main .row {
