@@ -91,7 +91,7 @@
       <ul class="list-group list-group-horizontal" style="flex-direction: row">
         {{ if .NextInSection }}
         <li class="list-group-item b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="{{ .NextInSection.Permalink }}"
+          <a type="button" class="btn" role="button" href="{{ .NextInSection.Permalink }}"
             data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">&larr; {{ i18n "nextPost" }}
             </a>
         </li>
@@ -100,7 +100,7 @@
         {{ if .PrevInSection }}
         <li class="list-group-item ms-auto b-0 p-0">
 
-          <a type="button" class="btn btn-dark" role="button" href="{{ .PrevInSection.Permalink }}"
+          <a type="button" class="btn" role="button" href="{{ .PrevInSection.Permalink }}"
             data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">
             {{ i18n "previousPost" }} &rarr;</a>
         </li>
