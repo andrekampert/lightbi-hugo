@@ -4,8 +4,9 @@
   <div class="container">
     <div class="row flex-lg-row-reverse align-items-center">
       <div class="col-12">
-        {{ $image := resources.Get "/img/bino-about.jpg" }}
-        <img src="{{ $image.RelPermalink }}" class="rounded-circle avatar-img" alt="Avatar" />
+        {{ with partial "get_image" . }}
+        <img src="{{ ( .Resize " 500x" ).RelPermalink }}" class="rounded-circle avatar-img" alt="Avatar"/>
+        {{ end }}
       </div>
       <div class="col-12">
         {{ with .Content }}

@@ -2,6 +2,7 @@
 type : "tags"
 layout : "about"
 title: "About me"
+image: "/img/posts/img-3.jpg"
 ---
 
 I am Bino Kochumol Varghese.
