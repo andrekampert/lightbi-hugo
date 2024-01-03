@@ -6,7 +6,7 @@ updateTheme();
 window.addEventListener("DOMContentLoaded", () => {
   var toggle = document.getElementById("dark-mode-toggle");
   toggle.addEventListener("click", () => {
-    if (document.documentElement.getAttribute("data-theme") == "dark")
+    if (document.documentElement.getAttribute("data-bs-theme") == "dark")
       localStorage["dark-mode-storage"] = "light";
     else
       localStorage["dark-mode-storage"] = "dark";
@@ -39,5 +39,5 @@ function updateTheme() {
 }
 
 function setTheme(mode) {
-  document.documentElement.setAttribute("data-theme", mode);
+  document.documentElement.setAttribute("data-bs-theme", mode);
 }
