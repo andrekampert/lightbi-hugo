@@ -18,9 +18,9 @@
 - id: newerPosts
   translation: "Nieuwere berichten"
 - id: previousPost
-  translation: "Vorige bericht"
+  translation: "Ouder"
 - id: nextPost
-  translation: "Volgende bericht"
+  translation: "Nieuwer"
 - id: readTime
   translation: "minuten"
 - id: words
