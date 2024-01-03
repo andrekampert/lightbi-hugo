@@ -18,6 +18,7 @@ Paginate = 6
 
 [Params]
 selfHosted = true
+showCredits = true
 mainSections = ["post","posts"]
 dateFormat = "2 January 2023"
 comments = false
