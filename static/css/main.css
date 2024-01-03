@@ -1001,7 +1001,7 @@ ul.share li:hover .fab {
 }
 
 .page-link {
-  color: #23272B;
+  color: var(--bs-body-color);
   line-height: 0.75;
   font-size: 18px;
   margin: 0 .1rem 0 .1rem;
@@ -1009,13 +1009,15 @@ ul.share li:hover .fab {
 
 .page-item.active .page-link {
   z-index: 1;
-  color: #fff;
-  background-color: #23272B;
+  color: var(--bs-body-bg);
+  background-color: var(--bs-body-color);
   border-color: rgb(65, 67, 70);
+  cursor: default;
 }
 
 .page-link:hover {
-  color: #23272B;
+  color: #008AFF;
+  background-color: var(--bs-body-bg);
 }
 
 /* Style the header: fixed position (always stay at the top) */
