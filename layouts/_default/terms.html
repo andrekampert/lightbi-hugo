@@ -17,7 +17,7 @@
               </h2>
               <div id="collapse{{ $value.Name }}" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                  <a href="{{ $.Site.LanguagePrefix | absURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="post-title list-group-item view-all">View all</a>
+                  <a href="{{ $.Site.LanguagePrefix | absURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="post-title list-group-item view-all">{{ i18n "viewAll" }}</a>
                   <div class="list-group">
                     {{ range $item := $value.WeightedPages }}
                     <a href="{{$item.Permalink}}" class="list-group-item">{{ $item.Title }}</a>

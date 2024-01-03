@@ -30,6 +30,9 @@
     one: "word"
     other: "words"
 
+# Terms page
+- id: viewAll
+  translation: "Show all"
 
 # 404 page
 - id: pageNotFound

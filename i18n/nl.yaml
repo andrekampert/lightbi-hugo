@@ -26,6 +26,9 @@
 - id: words
   translation: "woorden"
 
+# Terms page
+- id: viewAll
+  translation: "Toon alles"
 
 # 404 page
 - id: pageNotFound
