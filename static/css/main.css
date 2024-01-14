@@ -531,9 +531,8 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 50px 0 20px;
   position: relative;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 .intro-header.big-img {
